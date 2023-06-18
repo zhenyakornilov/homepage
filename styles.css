@@ -34,6 +34,14 @@ body {
     justify-content: space-between;
 }
 
+.center {
+    align-items: center;
+}
+
+.contact_info_container {
+    justify-content: center;
+}
+
 .resume {
     margin: 50px auto;
     border: 1px solid #f5f5f5;
@@ -86,9 +94,8 @@ body {
 }
 
 .contact-info__block {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    text-align: center;
+    margin-right: 8px;
 }
 
 .contact-info__block--center {
@@ -107,10 +114,11 @@ body {
 }
 
 .contact-info__item-icon-wrapper {
-    margin-right: 10px;
     width: 20px;
+    margin-right: 3px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .contact-info__item-icon path {
