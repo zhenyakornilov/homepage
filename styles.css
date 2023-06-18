@@ -269,3 +269,11 @@ body {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
+.tg-icon {
+    fill: #0088cc
+}
+
+.fb-icon {
+    fill: #3b5998;
+}
